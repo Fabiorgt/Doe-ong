@@ -1,0 +1,206 @@
+:root {
+    --verde: #4caf50;
+    --amarelo: #fdd835;
+    --azul: #1976d2;
+    --branco: #ffffff;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url(https://www.saesadvogados.com.br/wp-content/uploads/2023/03/News-jaque-afinal-ter-animais-silvestres-em-casa-e-ilegal-scaled.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+  }
+  
+  .cabecalho {
+    background-color: rgba(255, 255, 255, 0.95);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .cabecalho img {
+    height: 80px;
+    width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #fff59d; /* borda amarelo claro */
+  object-fit: cover;
+  background-color: white;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  }
+  .cabecalho img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 10px rgba(255, 245, 157, 0.6);
+  }
+
+  .list a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: var(--azul);
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .list a:hover {
+    color: var(--verde);
+  }
+  
+  .fundo {
+    background-color: rgba(255, 255, 255, 0.85);
+    margin: 20px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    color: var(--verde);
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
+  .formulario-doacao {
+    background-color: #f0f8f0;
+    border: 2px solid var(--verde);
+    border-radius: 12px;
+    padding: 30px;
+    margin-top: 40px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 5px 15px rgba(0, 100, 0, 0.1);
+  }
+  
+  .formulario-doacao h2 {
+    text-align: center;
+    color: var(--azul);
+    margin-bottom: 20px;
+  }
+  
+  .formulario-doacao form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formulario-doacao input,
+  .formulario-doacao select,
+  .formulario-doacao textarea {
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .formulario-doacao button {
+    background-color: var(--verde);
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .formulario-doacao button:hover {
+    background-color: var(--azul);
+  }
+  
+  /* Imagens redondas flutuantes */
+  .floating-img {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    animation: float 6s ease-in-out infinite;
+    opacity: 0.85;
+    z-index: 1;
+  }
+  
+  .floating1 {
+    top: 80%;
+    left: 5%;
+  }
+  
+  .floating2 {
+    top: 60%;
+    right: 8%;
+  }
+  
+  .floating3 {
+    bottom: 15%;
+    left: 15%;
+  }
+  
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+  }
+  
+  /* Rodapé moderno */
+  footer.main {
+    background-color: rgba(25, 118, 210, 0.9);
+    color: white;
+    padding: 30px 20px;
+    border-radius: 12px;
+    margin: 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-footer img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #fff59d; /* borda amarelo claro */
+    object-fit: cover;
+    background-color: white;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  }
+  .logo-footer img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 10px rgba(255, 245, 157, 0.6);
+  }  
+
+  .contact-footer {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .contact-footer p {
+    margin-bottom: 10px;
+  }
+  
+  .social img {
+    width: 30px;
+    margin: 0 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social img:hover {
+    transform: scale(1.2);
+  }
+   
+  .copi {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
