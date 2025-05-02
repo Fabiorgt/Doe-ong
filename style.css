@@ -8,11 +8,11 @@
   body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: url(https://www.saesadvogados.com.br/wp-content/uploads/2023/03/News-jaque-afinal-ter-animais-silvestres-em-casa-e-ilegal-scaled.jpg) no-repeat center center fixed;
+    background: url(arara.jpg) no-repeat center center fixed;
     background-size: cover;
     color: #333;
   }
-  
+
   .cabecalho {
     background-color: rgba(255, 255, 255, 0.95);
     display: flex;
@@ -26,8 +26,8 @@
   
   .cabecalho img {
     height: 80px;
-    width: 100px;
-  height: 100px;
+    width: 165px;
+  height: 165px;
   border-radius: 50%;
   border: 3px solid #fff59d; /* borda amarelo claro */
   object-fit: cover;
@@ -46,7 +46,9 @@
     color: var(--azul);
     font-weight: bold;
     transition: 0.3s;
+    font-size: 30px; /* tamanho aumentado */
   }
+  
   
   .list a:hover {
     color: var(--verde);
@@ -119,8 +121,8 @@
   /* Imagens redondas flutuantes */
   .floating-img {
     position: absolute;
-    width: 120px;
-    height: 120px;
+    width: 280px;
+    height: 280px;
     border-radius: 50%;
     object-fit: cover;
     animation: float 6s ease-in-out infinite;
@@ -129,18 +131,21 @@
   }
   
   .floating1 {
-    top: 80%;
+    top: 46%;
     left: 5%;
   }
   
   .floating2 {
-    top: 60%;
+    top: 40%;
     right: 8%;
+    width: 480px;
+    height: 480px;
   }
   
+  
   .floating3 {
-    bottom: 15%;
-    left: 15%;
+    bottom: 20%;
+    left: 20%;
   }
   
   @keyframes float {
@@ -165,8 +170,8 @@
   }
   
   .logo-footer img {
-    width: 100px;
-    height: 100px;
+    width: 175px;
+    height: 175px;
     border-radius: 50%;
     border: 3px solid #fff59d; /* borda amarelo claro */
     object-fit: cover;
@@ -182,25 +187,41 @@
   .contact-footer {
     flex: 1;
     text-align: center;
+    padding: 20px;
   }
   
   .contact-footer p {
-    margin-bottom: 10px;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+  
+  .contact-footer strong {
+    color: var(--amarelo); /* destaca a palavra "Email" */
+  }
+  
+  .social {
+    margin-top: 10px;
+  }
+  
+  .social a {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s ease, filter 0.3s ease;
   }
   
   .social img {
-    width: 30px;
-    margin: 0 8px;
-    transition: transform 0.3s ease;
+    width: 40px;
+    height: 40px;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
   }
   
-  .social img:hover {
+  .social a:hover img {
     transform: scale(1.2);
+    filter: brightness(1.2);
   }
-   
   .copi {
-    text-align: center;
-    margin-top: 20px;
+    text-align: cente;
+    margin-top: 135px;
     font-size: 14px;
   }
-  
