@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #fafafa;
     color: #0fa00f;
     background-image: url('background.jpg'); /* Adicionando imagem de fundo */
     background-size: cover;
@@ -17,14 +17,14 @@ body {
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: url(arara.jpg) no-repeat center center fixed;
+    background: url(papeldeparede.png) no-repeat center center fixed;
     background-size: cover;
-    color: #333;
+    color: #1e470a;
   }
 
 /* Cabecalho */
 .cabecalho {
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(39, 136, 19, 0.692);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -57,11 +57,15 @@ body {
     font-weight: bold;
     transition: 0.3s;
     font-size: 30px; /* tamanho aumentado */
+    color: #fafafa; /* cor original dos links */
+    text-decoration: none;
+    transition: color 0.3s ease; /* efeito suave de transição */
   }
   
   
   .list a:hover {
     color: var(--verde);
+    color: #0b570e; /* cor ao passar o mouse (exemplo: azul) */
   }
 
 /* Fundo e conteúdo */
@@ -104,7 +108,7 @@ section h3 {
 
 .parceiro {
     text-align: center;
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -265,7 +269,7 @@ section h3 {
 /* Rodapé */
 footer.main {
     background-color: #0f851f;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 20px 0;
     text-align: center;
 }
@@ -275,6 +279,51 @@ footer.main {
     justify-content: space-around;
     align-items: center;
 }
+
+.contact-footer {
+  padding: 28px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  border-top: 2px solid #27ae60;
+}
+
+.contact-footer p {
+  margin: 0 0 10px;
+  word-wrap: break-word;
+}
+
+.contact-footer .social {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.contact-footer .social a img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s ease;
+}
+
+.contact-footer .social a:hover img {
+  transform: scale(1.1);
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 480px) {
+  .contact-footer {
+    font-size: 14px;
+    padding: 15px;
+  }
+
+  .contact-footer .social a img {
+    width: 28px;
+    height: 28px;
+  }
+}
+
 
 .logo-footer img {
     width: 100px;
